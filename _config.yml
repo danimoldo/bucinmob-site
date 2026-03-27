@@ -1,0 +1,12 @@
+# GitHub Pages configuration for BucinMob website
+# Enables serving from the root of the repo on GitHub Pages
+
+title: BucinMob
+description: Producător de tâmplărie din lemn masiv triplustratificat și mobilier de grădină
+url: "https://yourusername.github.io"   # ← replace with your GitHub username
+baseurl: "/bucinmob-website"            # ← replace with your repo name
+
+# No Jekyll processing needed — pure static HTML
+exclude:
+  - README.md
+  - "*.sh"

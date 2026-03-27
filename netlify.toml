@@ -1,0 +1,33 @@
+# Netlify configuration
+# Drag this folder to netlify.com/drop for instant live URL
+# Or connect your GitHub repo in Netlify dashboard for auto-deploy on push
+
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/en/*"
+  to = "/:splat?lang=en"
+  status = 200
+
+[[redirects]]
+  from = "/de/*"
+  to = "/:splat?lang=de"
+  status = 200
+
+[[redirects]]
+  from = "/ro/*"
+  to = "/:splat?lang=ro"
+  status = 200
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
