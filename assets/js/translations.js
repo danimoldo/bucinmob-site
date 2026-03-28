@@ -1,12 +1,6 @@
 /* ============================================================
-   BucinMob — Translation Strings
-   Languages: ro (Romanian) · en (English) · de (German) · hu (Hungarian)
-
-   To add a new language:
-   1. Copy the "en" block, rename key (e.g. "fr"), translate values
-   2. Add "fr" to SUPPORTED array in i18n.js
-   3. Add <button class="lang-btn" data-lang="fr" onclick="setLang('fr')">FR</button>
-      inside .lang-switcher in every HTML file's <nav>
+   BucinMob — Translation Strings   v3
+   Languages: ro · en · de · hu
    ============================================================ */
 
 const TRANSLATIONS = {
@@ -132,7 +126,10 @@ const TRANSLATIONS = {
     "footer.copy": "© 2026 Bucin Mob SRL · Reghin, Mureș, România",
     "lang.suggest": "We also have this page in",
     "lang.accept": "Switch",
-    "lang.dismiss": "Stay in Romanian"
+    "lang.dismiss": "Stay in Romanian",
+    "nav.drop.gradina_cat": "Mobilier grădină & terasă",
+    "nav.drop.gradina": "Mobilier de grădină",
+    "nav.drop.interior_cat": "Mobilier Design Interior"
   },
   "en": {
     "nav.despre": "About us",
@@ -145,7 +142,7 @@ const TRANSLATIONS = {
     "nav.drop.table": "LOW-POLY Table",
     "nav.drop.cupboard": "LOW-POLY Cupboard",
     "nav.drop.surf": "CLEAR SURF",
-    "nav.drop.skadi": "SKADI Garden Houses",
+    "nav.drop.skadi": "SKADI garden houses",
     "hero.eyebrow": "Founded in 1993 · Reghin, Mureș",
     "hero.title": "Solid wood joinery\n& <em>furniture</em>",
     "hero.desc": "Triple-layered solid wood windows and doors. Garden and terrace furniture in spruce and oak. Made in Romania, built for generations.",
@@ -256,7 +253,10 @@ const TRANSLATIONS = {
     "footer.copy": "© 2026 Bucin Mob SRL · Reghin, Mureș, Romania",
     "lang.suggest": "We also have this page in",
     "lang.accept": "Switch",
-    "lang.dismiss": "Stay in English"
+    "lang.dismiss": "Stay in English",
+    "nav.drop.gradina_cat": "Garden & Terrace Furniture",
+    "nav.drop.gradina": "Garden furniture",
+    "nav.drop.interior_cat": "Interior Design Furniture"
   },
   "de": {
     "nav.despre": "Über uns",
@@ -269,7 +269,7 @@ const TRANSLATIONS = {
     "nav.drop.table": "LOW-POLY Tisch",
     "nav.drop.cupboard": "LOW-POLY Schrank",
     "nav.drop.surf": "CLEAR SURF",
-    "nav.drop.skadi": "SKADI Gartenhäuser",
+    "nav.drop.skadi": "SKADI Gartenhäuschen",
     "hero.eyebrow": "Gegründet 1993 · Reghin, Mureș",
     "hero.title": "Massivholzfenster, Türen\n& <em>Möbel</em>",
     "hero.desc": "Dreischichtige Massivholzfenster und -türen. Garten- und Terrassenmöbel aus Fichte und Eiche. Hergestellt in Rumänien, gebaut für Generationen.",
@@ -380,7 +380,10 @@ const TRANSLATIONS = {
     "footer.copy": "© 2026 Bucin Mob SRL · Reghin, Kreis Mureș, Rumänien",
     "lang.suggest": "Diese Seite ist auch verfügbar auf",
     "lang.accept": "Sprache wechseln",
-    "lang.dismiss": "Auf Deutsch bleiben"
+    "lang.dismiss": "Auf Deutsch bleiben",
+    "nav.drop.gradina_cat": "Garten- & Terrassenmöbel",
+    "nav.drop.gradina": "Gartenmöbel",
+    "nav.drop.interior_cat": "Design-Inneneinrichtung"
   },
   "hu": {
     "nav.despre": "Rólunk",
@@ -504,6 +507,9 @@ const TRANSLATIONS = {
     "footer.copy": "© 2026 Bucin Mob SRL · Régen, Maros megye, Románia",
     "lang.suggest": "Ez az oldal elérhető ezen a nyelven is",
     "lang.accept": "Váltás",
-    "lang.dismiss": "Maradok magyarul"
+    "lang.dismiss": "Maradok magyarul",
+    "nav.drop.gradina_cat": "Kerti & terasz bútorok",
+    "nav.drop.gradina": "Kerti bútorok",
+    "nav.drop.interior_cat": "Design belsőtér bútorok"
   }
 };
