@@ -8,9 +8,9 @@
    ============================================================ */
 
 const BROWSER_LANG = (navigator.language || 'ro').substring(0, 2).toLowerCase();
-const SUPPORTED    = ['ro', 'en', 'de'];
+const SUPPORTED    = ['ro', 'en', 'de', 'hu'];
 const DEFAULT_LANG = 'ro';
-const LANG_NAMES   = { ro: 'Română', en: 'English', de: 'Deutsch' };
+const LANG_NAMES   = { ro: 'Română', en: 'English', de: 'Deutsch', hu: 'Magyar' };
 
 function getLang() {
   return localStorage.getItem('bm_lang') ||
