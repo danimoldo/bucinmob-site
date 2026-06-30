@@ -26,14 +26,14 @@
   'use strict';
 
   /* ── CONFIGURARE ── Înlocuiți valorile de mai jos ───────── */
-  var CFG = {
-    publicKey:       '0KjeAH6SJMXm8A7rC',        // emailjs.com → Account → API Keys
-    quoteService:    'service_cqmggbs',        // Email Services
-    quoteTemplate:   'template_k12n477', // Email Templates
-    contactService:  'service_cqmggbs',        // (poate fi același service)
-    contactTemplate: 'template_k12n477',
-    mountId:         'bucinmob-form',          // id-ul div-ului de pe pagina Gomag
-  };
+ var CFG = {
+  publicKey:       '0KjeAH6SJMXm8A7rC',   // from Image 1
+  quoteService:    'service_cqmggbs',      // from Image 2
+  quoteTemplate:   'template_k12n477',     // from Image 3 (your "Contact Us" template)
+  contactService:  'service_cqmggbs',      // same Outlook service
+  contactTemplate: 'template_k12n477',     // same template for now (or make a 2nd one later)
+  mountId:         'bucinmob-form',
+};
   /* ───────────────────────────────────────────────────────── */
 
   var TARGET = document.getElementById(CFG.mountId);
