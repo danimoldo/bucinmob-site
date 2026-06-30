@@ -27,11 +27,11 @@
 
   /* ── CONFIGURARE ── Înlocuiți valorile de mai jos ───────── */
   var CFG = {
-    publicKey:       'YOUR_PUBLIC_KEY',        // emailjs.com → Account → API Keys
-    quoteService:    'YOUR_SERVICE_ID',        // Email Services
-    quoteTemplate:   'YOUR_QUOTE_TEMPLATE_ID', // Email Templates
-    contactService:  'YOUR_SERVICE_ID',        // (poate fi același service)
-    contactTemplate: 'YOUR_CONTACT_TEMPLATE_ID',
+    publicKey:       '0KjeAH6SJMXm8A7rC',        // emailjs.com → Account → API Keys
+    quoteService:    'service_cqmggbs',        // Email Services
+    quoteTemplate:   'template_k12n477', // Email Templates
+    contactService:  'service_cqmggbs',        // (poate fi același service)
+    contactTemplate: 'template_k12n477',
     mountId:         'bucinmob-form',          // id-ul div-ului de pe pagina Gomag
   };
   /* ───────────────────────────────────────────────────────── */
