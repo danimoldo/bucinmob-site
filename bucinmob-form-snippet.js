@@ -7,7 +7,7 @@
   quoteService:    'service_cqmggbs',      // from Image 2
   quoteTemplate:   'template_tk3ps09',     // from Image 3 (your "Contact Us" template)
   contactService:  'service_cqmggbs',      // same Outlook service
-  contactTemplate: 'template_tk3ps09',     // same template for now (or make a 2nd one later)
+  contactTemplate: 'template_k12n477',     // same template for now (or make a 2nd one later)
   mountId:         'bucinmob-form',
 };
   /* ───────────────────────────────────────────────────────── */
