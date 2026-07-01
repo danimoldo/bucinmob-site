@@ -1,38 +1,13 @@
-/**
- * ═══════════════════════════════════════════════════════════
- *  BUCIN MOB – Configurator Rapid (Form B)
- *  Pentru paginile de produs: uși și ferestre
- *
- *  INSTRUCȚIUNI DE INSTALARE:
- *  ─────────────────────────────────────────────────────────
- *  1. Completați CFG cu datele voastre EmailJS.
- *
- *  2. Pe fiecare pagină de produs din Gomag, adăugați un
- *     bloc HTML personalizat unde doriți formularul:
- *
- *       <div id="bmc-root"
- *            data-product="Ușă Exterior Molid Model 20"
- *            data-dims="1500x2000"
- *            data-type="usa">
- *       </div>
- *
- *     data-type acceptă: "usa" | "fereastra" | "auto"
- *     (auto = detectează din URL)
- *
- *  3. Lipiți acest script într-un bloc <script> după div.
- * ═══════════════════════════════════════════════════════════
- */
-
 (function () {
   'use strict';
 
   /* ── CONFIG ─────────────────────────────────────────────── */
   var CFG = {
-    publicKey:    'YOUR_PUBLIC_KEY',
-    serviceId:    'YOUR_SERVICE_ID',
-    templateId:   'YOUR_TEMPLATE_ID',
-    mountId:      'bmc-root',
-  };
+  publicKey:   '0KjeAH6SJMXm8A7rC',
+  serviceId:   'service_cqmggbs',
+  templateId:  'template_k12n477',   // new "Configurator" template — see below
+  mountId:     'bmc-root',
+};
 
   var ROOT = document.getElementById(CFG.mountId);
   if (!ROOT) return;
