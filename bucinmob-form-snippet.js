@@ -1,27 +1,3 @@
-/**
- * ═══════════════════════════════════════════════════════════
- *  BUCIN MOB – Formular Unificat de Contact
- *  Versiunea: snippet injectabil pentru Gomag
- *
- *  INSTRUCȚIUNI DE INSTALARE:
- *  ─────────────────────────────────────────────────────────
- *  1. Mergeți în panoul Gomag → Setări → Cod personalizat
- *     (sau secțiunea unde puteți adăuga cod în <head> sau
- *     înainte de </body>)
- *
- *  2. Înlocuiți cele 5 valori de configurare de mai jos
- *     cu datele contului vostru EmailJS.
- *
- *  3. Adăugați un element HTML pe pagina Gomag unde doriți
- *     să apară formularul:
- *        <div id="bucinmob-form"></div>
- *     (prin editorul de pagini sau bloc HTML personalizat)
- *
- *  4. Lipiți ÎNTREG codul de mai jos într-un bloc
- *     <script>...</script> după acel div.
- * ═══════════════════════════════════════════════════════════
- */
-
 (function () {
   'use strict';
 
@@ -29,9 +5,9 @@
  var CFG = {
   publicKey:       '0KjeAH6SJMXm8A7rC',   // from Image 1
   quoteService:    'service_cqmggbs',      // from Image 2
-  quoteTemplate:   'template_k12n477',     // from Image 3 (your "Contact Us" template)
+  quoteTemplate:   'template_tk3ps09',     // from Image 3 (your "Contact Us" template)
   contactService:  'service_cqmggbs',      // same Outlook service
-  contactTemplate: 'template_k12n477',     // same template for now (or make a 2nd one later)
+  contactTemplate: 'template_tk3ps09',     // same template for now (or make a 2nd one later)
   mountId:         'bucinmob-form',
 };
   /* ───────────────────────────────────────────────────────── */
